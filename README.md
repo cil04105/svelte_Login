@@ -1,38 +1,16 @@
-# create-svelte
+## :: 구현 목표 (해당 브랜치에서 구현하고자 하는 하나의 목표를 설정합니다.) 
+- sveltekit / tailwindcss 사용하여 로그인 페이지 만들기 
+<br />  
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+## :: 구현 사항 설명 (작업한 내용을 상세하게 기록합니다.) 
+- tailwindcss 사용하여 레이아웃 배치/스타일링 
+- submit 기능_유효성 검사 로직 작성 
+- 버튼 활성화 기능_삼항 연산자 사용  
+<br />
 
-## Creating a project
+## :: 성장 포인트 (해당 기능을 구현하며 고민했던 사항이나 새로 알게된 부분, 어려웠던 점 등을 작성합니다.) 
+- tailwindcss 기본 사용법을 알게 되었다._처음 사용하는거라 공식 홈페이지에서 찾아가며 적용했는데 시간이 너무 오래 걸렸다. 
+- sveltekit을 세팅 할 수 있다.  
+<br />  
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm init svelte@next
-
-# create a new project in my-app
-npm init svelte@next my-app
-```
-
-> Note: the `@next` is temporary
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
-
-```bash
-npm run build
-```
-
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+- ## :: 기타 질문 및 특이 사항 - 
